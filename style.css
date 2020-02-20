@@ -1,0 +1,86 @@
+.container-fluid {
+    background-image: url('images/bg.png');
+    position: relative;
+    font-family: "Amatic sc";
+}
+.oiseaux {
+    left: 73%;
+    height: 94px;
+    position: absolute;
+    height:100px;
+}
+.panda {
+    height: 66px;
+    position: absolute;
+    left: 0%;
+    top: 53%;
+}
+.panda-right {
+    height: 66px;
+    position: absolute;
+    left: 65%;
+    top: 53%;
+}
+.btn-prev {
+    font-weight: bold;
+}
+ 
+.title {
+    font-family: 'Amatic SC', cursive;
+    font-weight:bold;
+    font-size: 35px;
+}
+
+.description {
+    font-family: "Amatic sc";
+}
+
+/* Radio Button style */
+
+
+
+.transition{
+  transition: all .3s ease-out;
+}
+
+.center-align{
+    width: 300px;
+
+    height: 80px;
+    
+    position: absolute;
+    
+    left: 82%;
+    
+    top: 42%;
+    
+    
+    margin-top: -40px;
+    
+    margin-left: -150px;
+}
+
+input[type="radio"]{
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
+label {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  background-color: #454545;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  .transition;
+}
+input[type="radio"]:checked + label{
+  background-color: #58ba83;
+}
+
+
+
+/* End Radio Button */
